@@ -21,8 +21,8 @@ const gif = require("gif-search");
 const client = new Discord.Client({disableEveryone: true});
 
 const prefix = "1";
-/////////////////////////
 ////////////////////////
+///////////////////////
 
 client.on('message', async msg =>{
 	if (msg.author.bot) return undefined;
